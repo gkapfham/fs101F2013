@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html><head>
+<title>Computer Science 290 Fall 2013</title>
+<meta charset='utf-8'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+<link href='../css/big.css' rel='stylesheet'type='text/css'/>
+<script src='../css/big.js'></script>
+</head><body>
+
+<div><em>First-Year/Sophomore 101</em> <em class="green">Fall</em> 2013</div>
+
+<div>Gregory M. Kapfhammer</div>
+
+<div><em class="orange">Keep in touch!</em><p>Office Hours, Email, Web, Twitter</div>
+
+	<div>What is this class about?</div>
+
+<div><img src="http://farm5.staticflickr.com/4093/4902772292_1cc185ddb5_b_d.jpg"/></div>
+<div><img src="http://farm5.staticflickr.com/4093/4902772292_1cc185ddb5_b_d.jpg"/><em class="orange">Writing</em></div>
+
+<div><img src="http://farm4.staticflickr.com/3458/3293286198_995213999a_b_d.jpg"/></div>
+<div><img src="http://farm4.staticflickr.com/3458/3293286198_995213999a_b_d.jpg"/><em class="orange">Speaking</em></div>
+
+<div><img src="http://farm7.staticflickr.com/6191/6126924057_6941a7c9fe_b_d.jpg"/></div>
+<div><img src="http://farm7.staticflickr.com/6191/6126924057_6941a7c9fe_b_d.jpg"/><em class="orange">Software</em></div>
+	
+<div><img src='http://farm3.staticflickr.com/2484/3887600015_6c1b946772_z.jpg' /></div>
+<div><img src='http://farm3.staticflickr.com/2484/3887600015_6c1b946772_z.jpg' /><em>People</em></div>
+
+<div>
+	<em class="green">
+			Very Exciting!
+	</em>
+</div>
+
+<div>Why?</div>
+
+<div>
+	<quote>
+		<em class="orange">"The magic of myth and legend has come true in our time"</em>
+	</quote>
+	<p>
+		Frederick P. Brooks, Jr.
+</div>
+
+<div>What is Brooks talking about?</div>
+
+<div><em class="plum">Software</em></div>
+
+<!-- <div> -->
+<!-- 	<em class="sky">Syllabus</em> -->
+<!-- </div> -->
+
+<div>Highlights of this course</div>
+
+<div><em class="orange">Group</em> projects</div>
+
+<div>Use <em class="green">real-world</em> software tools</div>
+
+<div>Release <em class="scarlet">free and open-source</em> projects</em></div>
+
+<div>Get a <em class="plum">job</em></div>
+
+<div><img src = "http://farm7.staticflickr.com/6037/6336990111_afd069390c_b_d.jpg"/></div>
+<div><img src = "http://farm7.staticflickr.com/6037/6336990111_afd069390c_b_d.jpg"/>Found a <em class="plum">Job!</em></div>
+<div><img src = "http://farm7.staticflickr.com/6037/6336990111_afd069390c_b_d.jpg"/>Read the <em class="plum">Syllabus!</em></div>
+
+</body>
+</html>
+
