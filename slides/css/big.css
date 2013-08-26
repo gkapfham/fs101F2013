@@ -2,17 +2,26 @@ body {
   font-family: 'Helvetica';
   letter-spacing:-5px;
   /* background:#000; */
-  background:#1d1f21; 
+  background:#1d1f21 no-repeat center center fixed; 
   background-size:100%;
   color:#fff;
   margin:0;
   padding:0;
   font-weight:bold;
+  background-repeat:no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-h1, h2, h3, p {
-  margin:0;
-}
+/* BODY { background: url(bgimage.gif); background-repeat: no-repeat } */
+
+/* background: url(images/bg.jpg) no-repeat center center fixed; */
+/*         -webkit-background-size: cover; */
+/*         -moz-background-size: cover; */
+/*         -o-background-size: cover; */
+/*         background-size: cover; */
 
 em.box{
     -moz-border-radius: 20px/20px;
@@ -21,16 +30,11 @@ em.box{
     border:solid 10px #fff; 
     width:50px;
     height:10px;   
-	color:#fff;
+        color:#fff;
 }
 
-em.answerbox
-{
-height: 150px; /*Specify Height*/
-width:  150px; /*Specify Width*/
-border: 1px solid black; /*Add 1px solid border, use any color you want*/
-background-color: green; /*Add a background color to the box*/
-text-align:center; /*Align the text to the center*/
+h1, h2, h3, p {
+  margin:0;
 }
 
 em, a {
