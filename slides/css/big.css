@@ -23,6 +23,16 @@ body {
 /*         -o-background-size: cover; */
 /*         background-size: cover; */
 
+em.box{
+    -moz-border-radius: 20px/20px;
+    -webkit-border-radius: 20px 20px;
+    border-radius: 20px/20px;;
+    border:solid 10px #fff; 
+    width:50px;
+    height:10px;   
+        color:#fff;
+}
+
 h1, h2, h3, p {
   margin:0;
 }
