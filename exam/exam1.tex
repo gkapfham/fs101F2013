@@ -1,0 +1,399 @@
+\documentclass[12pt]{article}
+\textwidth = 6.5in
+\textheight = 9.05in
+\topmargin 0.0in
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+
+\usepackage[T1]{fontenc}
+
+% set it so that subsubsections have numbers and they
+% are displayed in the TOC (maybe hard to read, might want to disable)
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\usepackage{epsfig}
+
+% define widow protection 
+        
+\def\widow#1{\vskip #1\vbadness10000\penalty-200\vskip-#1}
+
+% define a little section heading that doesn't go with any number
+
+\def\littlesection#1{
+\widow{2cm}
+\vskip 0.5cm
+\noindent{\bf #1}
+\vskip 0.1cm
+\noindent
+}
+
+% A paraphrase mode that makes it easy to see the stuff that shouldn't
+% stay in for the final proposal
+
+\newdimen\tmpdim
+\long\def\paraphrase#1{{\parskip=0pt\hfil\break
+\tmpdim=\hsize\advance\tmpdim by -15pt\noindent%
+\hbox to \hsize
+{\vrule\hskip 3pt\vrule\hfil\hbox to \tmpdim{\vbox{\hsize=\tmpdim
+\def\par{\leavevmode\endgraf}
+\obeyspaces \obeylines 
+\let\par=\endgraf
+\bf #1}}}}}
+
+\renewcommand{\baselinestretch}{1.2}    % must go before the begin of doc
+
+% go with the way that CC sets the margins
+
+\pagestyle{empty}
+
+\begin{document}
+
+% handle widows appropriately
+\def\widow#1{\vskip #1\vbadness10000\penalty-200\vskip-#1}
+
+\begin{center}
+
+FS 101: Software Everywhere \\
+Final Examination \\
+%Friday, November 2, 2007 \\
+
+\end{center}
+
+\noindent
+Answer the eight questions that are listed on the following sheets.  You
+must provide answers to these questions on a separate sheet of paper.
+Please develop responses that clearly express your ideas in the most
+succinct manner possible.  You are not permitted to complete this
+examination in conjunction with any of your classmates.  Furthermore,
+you cannot consult any outside references during this examination.  If
+you have questions concerning the problems, then please visit my
+office during the examination period.  If you leave the classroom to
+take the exam, then you are responsible for checking the chalk board
+for status updates.
+
+\newpage
+
+\begin{enumerate}
+
+\item ({\bf 10 Points}) Answer the following questions about Richard
+  Hamming and his ``You and Your Research'' presentation.
+
+
+\begin{enumerate}
+
+\item ({\bf 4 Points}) In his ``You and Your Research'' presentation
+  Hamming asks and answers the question ``why do so few scientists
+  make significant contributions and so many are forgotten in the long
+  run?''  What are some of the responses that Hamming gives to this
+  question?
+
+\item ({\bf 4 Points}) Hamming makes the observation that ``knowledge
+  and productivity are like compound interest.''  What does this mean?
+
+\item ({\bf 2 Points}) The ``You and Your Research'' speech contains a
+  number of controversial statements.  Pick one of these observations
+  and then state whether you agree or disagree with it.  Your response
+  to this question should also fully explain why you agree or
+  disagree with Hamming's observation.
+
+\end{enumerate}
+
+\newpage
+
+\item ({\bf 10 Points}) Answer the following questions about the
+  famous --- and rather quirky! --- mathematician named Paul
+  Erd\"{o}s.
+
+\begin{enumerate}
+
+\item ({\bf 4 Points}) Paul Erd\"{o}s was known as the ``man who loved
+  only numbers.''  Beyond being a mathematician who was in love with
+  numbers, who was Paul Erd\"{o}s?  Your response to this question
+  should also give one important contribution of Erd\"{o}s.
+
+\item ({\bf 4 Points}) Paul Erd\"{o}s was addicted to amphetamines.
+  In your judgment, was it appropriate for this mathematician to take
+  these drugs in order to enhance his contribution to his discipline?
+
+\item ({\bf 2 Points}) Intuitively explain the concept of the
+  Erd\"{o}s number.  Do mathematicians and scientists seek to have a
+  low or a high Erd\"{o}s number?  Why?
+
+\end{enumerate}
+
+\newpage
+
+\item ({\bf 10 Points}) Answer the following questions about Google, a well-known company. 
+
+\begin{enumerate}
+
+  \item ({\bf 2 Points}) A recent article in the {\em New York Times} introduces the concept of a {\em Xoogler}.  What
+    is the meaning of this term?
+
+  \item ({\bf 2 Points}) Google is developing a new type of car.  What kind of car is it? What are some of the
+    implications associated with the use of this type of car?
+  
+  \item ({\bf 6 Points}) Google has developed a wide variety of software and hardware products.  Without referencing the
+    Google car, please name six of these products and explain how they fit into Google's overarching business goals.
+
+
+\end{enumerate}
+
+\newpage
+
+\item ({\bf 10 Points}) Answer the following questions about the
+  purposes of education in high school and college, as expressed by
+  Dominic Randolph and Louis Menand.
+
+\begin{enumerate}
+
+\item ({\bf 5 Points}) In a New York Times article entitled ``What if
+  the Secret to Success if Failure?'' Dominic Randolph is quoted as
+  saying that ``This push on tests is missing out on some serious
+  parts of what it means to be a successful human.''  What is the
+  critical piece of education that Randolph thinks is missing? Do you
+  agree or disagree with Randolph's viewpoint?
+
+\item ({\bf 5 Points}) Louis Menand develops several theories about why
+  colleges and universities exist in the United States of America.
+  What are these reasons?  After clearly explaining each of the
+  theories, you should discuss which one you think is the most
+  appropriate viewpoint.
+
+\end{enumerate}
+
+\newpage
+
+%% \item ({\bf 10 Points}) Answer the following questions about Carl
+%%   Sagan and his speech about a ``pale blue dot.''
+
+%% \begin{enumerate}
+
+%% \item ({\bf 4 Points}) Carl Sagan gave a speech where he referenced
+%%   ``a pale blue dot.''  In reality, what is this dot?
+
+%% \item ({\bf 6 Points}) Carl Sagan makes the observation that ``the
+%%   Earth is a very small stage in a vast cosmic arena.''  What does
+%%   this statement mean?  How does Sagan use the ``pale blue dot'' to
+%%   justify this assertion?
+
+%% \end{enumerate}
+
+\item ({\bf 10 Points}) Answer the following questions about software
+  and music piracy.
+
+\begin{enumerate}
+
+\item ({\bf 5 Points}) Malin and Flowers find that, for 200 suburban
+  high school students from the New York metropolitan area, there is
+  one dominant predictor for whether or not an individual will pirate.
+  What is this predictor?  Why is it so effective at predicting
+  whether or not a high school student will pirate music?
+
+%% \item ({\bf 3 Points}) The Malin and Flowers study also looked at
+%%   whether age and grade level could have an impact on music piracy.
+%%   Do their findings suggest that 9th or 12th graders are more likely
+%%   to pirate music?  Why do you think that they found this result?
+
+\item ({\bf 5 Points}) Name at least two different programs that you
+  can use to pirate music or software.  How do these programs work?
+  What are their strengths and weaknesses?  If possible, your response
+  to this question should use a diagram to explain the way that your
+  chosen programs work.
+
+\end{enumerate}
+
+\newpage
+
+%% \item ({\bf 10 Points}) Answer the following questions about how
+%%   various companies and individuals, such as Google and Derek Webb,
+%%   are taking steps to change the \mbox{future of music}.
+
+%% \begin{enumerate}
+
+%% \item ({\bf 5 Points}) Google Greater China's president recently
+%%   describe the company's new initiative as a ``huge leap of faith for
+%%   us.''  What type of new service is Google now offering in China?  Do
+%%   you agree or disagree with this approach taken by Google?  Why do
+%%   you think that Google is taking these steps?
+
+%% \item ({\bf 5 Points}) In his ``Feedback'' blog, Derek Webb writes
+%%   that ``There has never been a better moment to be a middle-class or
+%%   an independently thinking artist making and performing music than
+%%   right now.''  Why does Webb make this statement?  How does Webb
+%%   suggest that music artists make a living?
+
+%% \end{enumerate}
+
+\newpage
+
+%% \item ({\bf 10 Points}) Answer the following questions about the use
+%%   of computer software during the education of elementary school
+%%   students.
+
+%% \begin{enumerate}
+
+%% \item ({\bf 6 Points}) The authors of the article
+%%   ``Scratch:\ Programming for All'' furnish their own definition of
+%%   the term {\em digital fluency} --- what is it?  The authors of this
+%%   article also argue that certain types of interactions with software
+%%   and technology are {\em not} examples of digital fluency --- what
+%%   are they?
+
+%% \item ({\bf 4 Points}) In their article ``Empowering Kids to Create
+%%   and Share Programmable Media'' the authors outline the following
+%%   types of individuals who may use software and technology: passive
+%%   consumer, active consumer, passive producer, and active producer.
+%%   What is the meaning of each of these terms?
+
+%% \end{enumerate}
+
+\newpage
+
+\item ({\bf 10 Points}) Answer the following questions about the
+  practice of plagiarism and the rise of computer software and
+  technology.
+
+\begin{enumerate}
+
+\item ({\bf 6 Points}) My paper ``Time-Aware Test Suite
+  Prioritization'' was recently plagiarized by researchers in India.
+  Please classify this activity of plagiarism according to the
+  following scale for the ``seven deadly sins of plagiarism.''  Your
+  response to this question should furnish concrete evidence to
+  support your classification.
+
+  \begin{enumerate}
+
+  \item Intentional grand larceny
+  \item Premeditated shoplifting
+  \item Tinkering with the evidence
+  \item Idea kidnapping
+  \item Unauthorized borrowing of private property
+  \item Trespassing over boundaries
+  \item Writing under the influence
+
+  \end{enumerate}
+
+\item ({\bf 2 Points}) Trip Gabriel contends that living in the
+  ``digital age'' has caused plagiarism lines to blur for college
+  students.  Why does Gabriel make this assertion?  Do you agree with
+  his statement?
+
+\item ({\bf 2 Points}) Briefly summarize the Allegheny College honor
+  code.
+
+\end{enumerate}
+
+\newpage
+
+%% \item ({\bf 10 Points}) Answer the following questions about the
+%%   recent activities of the Google Corporation.
+
+%% \begin{enumerate}
+
+%% \item ({\bf 6 Points}) Edward Wyatt reports in his New York Times
+%%   article that Google and Verizon are working to establish ``tiers''
+%%   on the Internet.  What are these tiers?  Why do Google and Verizon
+%%   want to create them?  Do you agree or disagree with this approach?
+%%   Why?
+
+%% \item ({\bf 2 Points}) John Markoff of the New York Times reports that
+%%   Google is developing their own car.  What are the most important
+%%   features of this vehicle?
+
+%% \item ({\bf 2 Points}) Name two products that people currently
+%%   associate with Google.  Your response to this question should
+%%   briefly explain how this product works and the way it fits into
+%%   Google's business plan.
+
+%% \end{enumerate}
+
+\newpage
+
+\item ({\bf 10 Points}) Answer the following questions about the
+  ``BUGS in Writing'' book.
+
+\begin{enumerate}
+
+\item ({\bf 6 Points}) Lyn Dupre introduces the BUGS scale in order to
+  evaluate the quality of a person's writing.  What is the BUGS scale?  In
+  your judgment, how did you rank on the BUGS scale at the start of
+  the semester?  How do you think that you would rank on the scale at
+  the end of the semester? Why?
+
+\item ({\bf 2 Points}) Dupre's preface to the ``BUGS in Writing'' book
+  develops the concept of {\em ear} --- what does this term mean?
+
+\item ({\bf 2 Points}) A book about the principles of writing can
+  either be {\em descriptive} or {\em prescriptive} in nature.  Is
+  ``BUGS in Writing'' descriptive or prescriptive?
+
+\end{enumerate}
+
+\newpage
+
+\item ({\bf 10 Points}) Answer the following questions about the use
+  of proper grammar in English language sentences.  For the first four
+  of these questions, you should state whether the sentence is written
+  properly.  If it is correct, then you should explain what rule(s)
+  the sentence properly follows.  If there is a mistake in the
+  sentence, then you should identify it and provide a correction.
+
+\begin{enumerate}
+
+%% \item ({\bf 2 Points}) Is this sentence correct?
+
+  %% \begin{quote}
+
+  %%   The IBM computer that has the most bells and whistels will sell
+  %%   the fastest.
+
+  %% \end{quote}
+
+\item ({\bf 2 Points}) Is this sentence correct?
+
+  \begin{quote}
+
+    When memory is so short that it cannot be freed sufficiently fast
+    to satisfy demand, swapping can be used.
+
+  \end{quote}
+
+\item ({\bf 2 Points}) Is this sentence correct?
+
+  \begin{quote}
+
+    Donald Knuth looked for an algorithm to solve the problem with.
+
+  \end{quote}
+
+\item ({\bf 2 Points}) Is this sentence correct?
+
+  \begin{quote}
+
+    People that never express emotions are boring; they are entirely
+    too predictable.
+
+  \end{quote}
+
+\item ({\bf 2 Points}) In the handbook ``A Writer's Reference'' Hacker
+  and Sommers describe the idea of a {\em thesis statement} --- what
+  is it and why do the authors argue that writers should include one
+  in their papers?
+
+\item ({\bf 2 Points}) In the ``{They Say/I Say}'' book, the authors
+  introduce the idea of writing {\em templates}.  What is the purpose
+  of these templates?  Do you think that it is a good idea to use
+  them?
+
+\end{enumerate}
+
+\end{enumerate}
+
+\end{document}
+
+
+

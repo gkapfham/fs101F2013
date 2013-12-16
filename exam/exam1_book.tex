@@ -1,0 +1,125 @@
+\documentclass[12pt]{article}             
+\textwidth = 6.5in
+\textheight = 9.05in
+\topmargin 0.0in
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+
+\pagestyle{empty}
+
+% set it so that subsubsections have numbers and they
+% are displayed in the TOC (maybe hard to read, might want to disable)
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+% define widow protection 
+        
+\def\widow#1{\vskip #1\vbadness10000\penalty-200\vskip-#1}
+
+% define a little section heading that doesn't go with any number
+
+\def\littlesection#1{
+\widow{2cm}
+\vskip 0.5cm
+\noindent{\bf #1}
+\vskip 0.1cm
+\noindent
+}
+
+% A paraphrase mode that makes it easy to see the stuff that shouldn't
+% stay in for the final proposal
+
+\newdimen\tmpdim
+\long\def\paraphrase#1{{\parskip=0pt\hfil\break
+\tmpdim=\hsize\advance\tmpdim by -15pt\noindent%
+\hbox to \hsize
+{\vrule\hskip 3pt\vrule\hfil\hbox to \tmpdim{\vbox{\hsize=\tmpdim
+\def\par{\leavevmode\endgraf}
+\obeyspaces \obeylines 
+\let\par=\endgraf
+\bf #1}}}}}
+
+\renewcommand{\baselinestretch}{1.2}    % must go before the begin of doc
+\newtheorem{principle}{Principle}
+\newtheorem{definition}{Definition}
+\newtheorem{define}{Definition}
+% go with the way that CC sets the margins
+
+\begin{document}
+
+\vspace*{1in}
+
+\begin{center}
+
+FS 101 Software Everywhere \\
+Final Examination \\
+Pledge: \\
+
+\vspace*{2in}
+
+Final Score: \\ \vspace*{.5in} {\LARGE $\frac{}{80}$}
+
+\vspace*{2in}
+
+\begin{center}
+
+  {\bf Reminder, Please Turn In Your:}
+
+  \begin{enumerate}
+
+  %\item Long-writing assingment 
+
+  \item Final paper
+
+  \item Professor meeting record
+
+  \end{enumerate}
+
+\end{center}
+
+\end{center}
+
+\newpage
+
+{\bf Question 1} {\Large $\;\;\;\frac{}{10}$ }
+
+\newpage
+
+{\bf Question 2} {\Large $\;\;\; \frac{}{10}$ }
+
+\newpage
+
+{\bf Question 3} {\Large $\;\;\; \frac{}{10}$ }
+
+\newpage
+
+{\bf Question 4} {\Large $\;\;\; \frac{}{10}$ }
+
+\newpage
+
+{\bf Question 5} {\Large $\;\;\; \frac{}{10}$ }
+
+\newpage
+
+{\bf Question 6} {\Large $\;\;\; \frac{}{10}$ }
+
+\newpage
+
+{\bf Question 7} {\Large $\;\;\; \frac{}{10}$ }
+
+\newpage
+
+{\bf Question 8} {\Large $\;\;\; \frac{}{10}$ }
+
+\newpage
+
+%% {\bf Question 9} {\Large $\;\;\; \frac{}{10}$ }
+
+%% \newpage
+
+%% {\bf Question 10} {\Large $\;\;\; \frac{}{10}$ }
+
+%% \newpage
+
+\end{document}
